@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'startup-glossary';
   constructor() {
-    console.log('jedi test');
+    console.log("jedi test");
   }
 }
