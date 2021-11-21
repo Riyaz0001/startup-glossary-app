@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "projects": {},
-  "cli": {
-    "defaultCollection": "@nrwl/workspace"
+  "projects": {
+    "startup-glossary": "apps/startup-glossary",
+    "startup-glossary-e2e": "apps/startup-glossary-e2e"
   }
 }
