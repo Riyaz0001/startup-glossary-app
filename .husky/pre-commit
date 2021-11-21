@@ -8,3 +8,5 @@ echo "Linting only staged files from .husky/pre-commit"
 npx nx lint --fix
 npx nx build --project startup-glossary
 
+# echo "Using NXs built in format check."
+# npx nx format:check

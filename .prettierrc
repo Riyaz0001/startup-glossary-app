@@ -1,5 +1,12 @@
 {
+  "printWidth": 200,
+  "tabWidth": 4,
+  "useTabs": false,
+  "semi": true,
   "singleQuote": true,
+  "trailingComma": "es5",
+  "bracketSpacing": true,
+  "arrowParens": "avoid",
   "overrides": [
     {
       "files": "*.html",
@@ -8,10 +15,16 @@
       }
     },
     {
-      "files": ["*.component.html"],
+      "files": ["*.component.html", "*.page.html"],
       "options": {
         "parser": "angular"
       }
-    }
+    },
+    {
+      "files": "*.yml",
+      "options": {
+          "tabWidth": 2
+      }
+  }
   ]
 }
