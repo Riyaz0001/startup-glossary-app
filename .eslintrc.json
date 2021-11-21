@@ -1,8 +1,11 @@
 {
     "root": true,
     "ignorePatterns": ["**/*"],
-    "plugins": ["@nrwl/nx", "prettier", "html"],
-    "extends": ["eslint:recommended", "plugin:@typescript-eslint/eslint-recommended", "plugin:@typescript-eslint/recommended", "prettier"],
+    "plugins": ["@nrwl/nx", "prettier", "html", "@angular-eslint"],
+    "extends": ["eslint:recommended", "plugin:@typescript-eslint/eslint-recommended", "plugin:@typescript-eslint/recommended", "prettier", "plugin:prettier/recommended"],
+    "rules": {
+        "prettier/prettier": "error"
+    },
     "overrides": [
         {
             "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
@@ -19,6 +22,27 @@
                                 "onlyDependOnLibsWithTags": ["*"]
                             }
                         ]
+                    }
+                ]
+            }
+        },
+        {
+            "files": ["*.component.ts"],
+            "rules": {
+                "@angular-eslint/directive-selector": [
+                    "error",
+                    {
+                        "type": "attribute",
+                        "prefix": "of-academy",
+                        "style": "camelCase"
+                    }
+                ],
+                "@angular-eslint/component-selector": [
+                    "error",
+                    {
+                        "type": "element",
+                        "prefix": "of-academy",
+                        "style": "kebab-case"
                     }
                 ]
             }

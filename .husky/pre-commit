@@ -4,8 +4,10 @@
 echo "Setting Node Memory to 8 GB.  Usefull as the project gets bigger for cloud building"
 export NODE_OPTIONS="--max-old-space-size=8192"
 
+echo "Linting with NX "
+npx nx lint
 
-# echo "Using NXs built in format check."
+echo "Using NXs built in format which uses Prettier"
 npx nx format
 
 echo "Building"

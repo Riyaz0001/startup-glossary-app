@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'openforge-academy-root',
+    selector: 'of-academy-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss'],
 })
