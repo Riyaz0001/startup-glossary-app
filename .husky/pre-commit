@@ -4,9 +4,12 @@
 echo "Setting Node Memory to 8 GB.  Usefull as the project gets bigger for cloud building"
 export NODE_OPTIONS="--max-old-space-size=8192"
 
-echo "Linting only staged files from .husky/pre-commit"
-npx nx lint --fix
-npx nx build --project startup-glossary
 
 # echo "Using NXs built in format check."
-# npx nx format:check
+npx nx format
+
+echo "Building"
+npx nx build --project startup-glossary
+
+
+
