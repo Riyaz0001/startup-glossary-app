@@ -48,6 +48,7 @@
     "@angular/platform-browser-dynamic": "^13.0.0",
     "@angular/router": "^13.0.0",
     "@nrwl/eslint-plugin-nx": "^13.2.1",
+    "husky": "^7.0.4",
     "rxjs": "~7.4.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"
