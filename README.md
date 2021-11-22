@@ -29,6 +29,12 @@ Below are our core plugins:
 
 There are also many [community plugins](https://nx.dev/community) you could add.
 
+## Generating a Project
+
+After any project is created by NX, we must add StyleLint
+
+nx g nx-stylelint:configuration --project <projectName>
+
 ## Generate an application
 
 Run `nx g @nrwl/react:app my-app` to generate an application.

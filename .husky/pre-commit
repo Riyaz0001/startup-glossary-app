@@ -7,6 +7,9 @@ export NODE_OPTIONS="--max-old-space-size=8192"
 echo "Linting with NX "
 npx nx lint
 
+echo "StyleLint with NX"
+npx nx stylelint
+
 echo "Using NXs built in format which uses Prettier"
 npx nx format
 

@@ -11,5 +11,6 @@
     },
     "[typescript]": {
         "editor.formatOnSave": true
-    }
+    },
+    "stylelint.validate": ["css", "scss"]
 }
