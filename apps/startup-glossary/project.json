@@ -82,6 +82,13 @@
                 "jestConfig": "apps/startup-glossary/jest.config.js",
                 "passWithNoTests": true
             }
+        },
+        "stylelint": {
+            "executor": "nx-stylelint:lint",
+            "outputs": ["{options.outputFile}"],
+            "options": {
+                "lintFilePatterns": ["apps/startup-glossary/**/*.css", "apps/startup-glossary/**/*.scss"]
+            }
         }
     },
     "tags": []
