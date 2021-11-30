@@ -33,7 +33,7 @@
                     "error",
                     {
                         "type": "attribute",
-                        "prefix": "of-academy",
+                        "prefix": "openforge",
                         "style": "camelCase"
                     }
                 ],
@@ -41,7 +41,7 @@
                     "error",
                     {
                         "type": "element",
-                        "prefix": "of-academy",
+                        "prefix": "openforge",
                         "style": "kebab-case"
                     }
                 ]
