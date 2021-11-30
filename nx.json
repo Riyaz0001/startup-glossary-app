@@ -1,7 +1,7 @@
 {
-    "npmScope": "openforge-academy",
+    "npmScope": "mobile-academy",
     "affected": {
-        "defaultBase": "master"
+        "defaultBase": "develop"
     },
     "implicitDependencies": {
         "package.json": {

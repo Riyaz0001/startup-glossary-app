@@ -14,8 +14,8 @@
                 "polyfills": "apps/startup-glossary/src/polyfills.ts",
                 "tsConfig": "apps/startup-glossary/tsconfig.app.json",
                 "inlineStyleLanguage": "scss",
-                "assets": ["apps/startup-glossary/src/favicon.ico", "apps/startup-glossary/src/assets"],
-                "styles": ["apps/startup-glossary/src/styles.scss"],
+                "assets": ["apps/startup-glossary/src/assets"],
+                "styles": ["apps/startup-glossary/src/global.scss"],
                 "scripts": []
             },
             "configurations": {
