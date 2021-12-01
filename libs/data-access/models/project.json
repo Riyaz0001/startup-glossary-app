@@ -1,0 +1,23 @@
+{
+    "projectType": "library",
+    "root": "libs/data-access/models",
+    "sourceRoot": "libs/data-access/models/src",
+    "prefix": "mobile-academy",
+    "targets": {
+        "test": {
+            "executor": "@nrwl/jest:jest",
+            "outputs": ["coverage/libs/data-access/models"],
+            "options": {
+                "jestConfig": "libs/data-access/models/jest.config.js",
+                "passWithNoTests": true
+            }
+        },
+        "lint": {
+            "executor": "@nrwl/linter:eslint",
+            "options": {
+                "lintFilePatterns": ["libs/data-access/models/src/**/*.ts", "libs/data-access/models/src/**/*.html"]
+            }
+        }
+    },
+    "tags": []
+}

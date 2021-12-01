@@ -1,7 +1,10 @@
 {
     "version": 2,
     "projects": {
+        "data-access-glossary": "libs/data-access/glossary",
+        "data-access-models": "libs/data-access/models",
         "startup-glossary": "apps/startup-glossary",
-        "startup-glossary-e2e": "apps/startup-glossary-e2e"
+        "startup-glossary-e2e": "apps/startup-glossary-e2e",
+        "ui-components": "libs/ui/components"
     }
 }

@@ -1,0 +1,23 @@
+{
+    "projectType": "library",
+    "root": "libs/data-access/glossary",
+    "sourceRoot": "libs/data-access/glossary/src",
+    "prefix": "mobile-academy",
+    "targets": {
+        "test": {
+            "executor": "@nrwl/jest:jest",
+            "outputs": ["coverage/libs/data-access/glossary"],
+            "options": {
+                "jestConfig": "libs/data-access/glossary/jest.config.js",
+                "passWithNoTests": true
+            }
+        },
+        "lint": {
+            "executor": "@nrwl/linter:eslint",
+            "options": {
+                "lintFilePatterns": ["libs/data-access/glossary/src/**/*.ts", "libs/data-access/glossary/src/**/*.html"]
+            }
+        }
+    },
+    "tags": []
+}
