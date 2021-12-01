@@ -1,1 +1,1 @@
-export * from './lib/util-enums.module';
+export * from './lib/category-type.enum';

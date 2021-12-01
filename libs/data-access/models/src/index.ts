@@ -1,1 +1,1 @@
-export * from './lib/data-access-models.module';
+export * from './lib/category.model';
