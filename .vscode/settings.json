@@ -10,7 +10,8 @@
         "source.fixAll.prettier": true
     },
     "[typescript]": {
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "stylelint.validate": ["css", "scss"]
 }
