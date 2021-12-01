@@ -5,6 +5,7 @@
         "data-access-models": "libs/data-access/models",
         "startup-glossary": "apps/startup-glossary",
         "startup-glossary-e2e": "apps/startup-glossary-e2e",
-        "ui-components": "libs/ui/components"
+        "ui-components": "libs/ui/components",
+        "util-enums": "libs/util/enums"
     }
 }

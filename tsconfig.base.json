@@ -17,7 +17,8 @@
         "paths": {
             "@mobile-academy/data-access/glossary": ["libs/data-access/glossary/src/index.ts"],
             "@mobile-academy/data-access/models": ["libs/data-access/models/src/index.ts"],
-            "@mobile-academy/ui/components": ["libs/ui/components/src/index.ts"]
+            "@mobile-academy/ui/components": ["libs/ui/components/src/index.ts"],
+            "@mobile-academy/util/enums": ["libs/util/enums/src/index.ts"]
         }
     },
     "exclude": ["node_modules", "tmp"]
