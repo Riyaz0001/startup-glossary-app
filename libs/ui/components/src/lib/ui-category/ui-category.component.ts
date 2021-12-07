@@ -1,11 +1,12 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Category } from '@mobile-academy/data-access/models';
 
 @Component({
     selector: 'mobile-academy-ui-category',
     templateUrl: 'ui-category.component.html',
     styleUrls: ['ui-category.component.scss'],
 })
-export class UICategoryComponent implements OnInit {
+export class UICategoryComponent {
     @Input() category: Category;
     @Input() isLastItem: boolean;
 
