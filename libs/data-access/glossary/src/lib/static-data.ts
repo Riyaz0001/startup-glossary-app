@@ -1,3 +1,5 @@
+import { Glossary } from '../../../models/src/lib/glossary.model';
+
 export const GlossaryStaticData: Glossary = [
     {
         category: 'Marketing',
