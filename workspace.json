@@ -2,6 +2,7 @@
     "version": 2,
     "projects": {
         "data-access-services": "libs/data-access/services",
+        "features-glossary-category-module": "libs/features/glossary-category-module",
         "features-glossary-home-module": "libs/features/glossary-home-module",
         "startup-glossary": "apps/startup-glossary",
         "startup-glossary-e2e": "apps/startup-glossary-e2e"
