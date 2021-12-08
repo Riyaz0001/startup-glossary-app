@@ -10,9 +10,9 @@ import { CategoryService } from '@mobile-academy/data-access/services';
 export class CategoryPage {
     categorySelected: Category;
     constructor(private categoryService: CategoryService, private route: Router) {
-        // Set the selected category
-        this.categorySelected = this.categoryService.selectedCategory;
-        console.log(this.categorySelected);
+
+        const navigation = this.route.getCurrentNavigation();
+       this.categorySelected =  this.categoryService.getSingleCategory(navigation.extras.state.category);
     }
 
     learnNewTerm() {

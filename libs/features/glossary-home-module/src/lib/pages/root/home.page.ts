@@ -18,10 +18,6 @@ export class HomePage {
     }
 
     viewItem(item) {
-        // * Select the category
-        console.log(item);
-        this.categoryService.selectedCategory = item;
-        // * Navigate to the category page
-        this.route.navigate(['/category']);
+        this.route.navigateByUrl('/category', { state: { category: item.title } });
     }
 }

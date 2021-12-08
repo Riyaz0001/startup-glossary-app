@@ -7,7 +7,7 @@ export class CategoryService {
     private _selectedCategory: Category;
 
     public get selectedCategory(): Category {
-      console.log('get selectedCategory', this._selectedCategory);
+        console.log('get selectedCategory', this._selectedCategory);
         return this._selectedCategory;
     }
 
@@ -18,5 +18,9 @@ export class CategoryService {
 
     public get categories(): Category[] {
         return Categories;
+    }
+
+    public getSingleCategory(title: string): Category {
+        return Categories.find(category => category.title === title);
     }
 }
