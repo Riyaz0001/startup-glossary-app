@@ -11,9 +11,9 @@ import { Router } from '@angular/router';
 export class PastTermPage {
     categorySelected: Category;
     constructor(private categoryService: CategoryService, private route: Router) {
-      const navigation = this.route.getCurrentNavigation();
-      const selectedTitle = navigation.extras.state.category;
-      this.categorySelected = this.categoryService.getSingleCategory(selectedTitle);
+        const navigation = this.route.getCurrentNavigation();
+        const selectedTitle = navigation.extras.state.category;
+        this.categorySelected = this.categoryService.getSingleCategory(selectedTitle);
     }
 
     scrollTop() {

@@ -17,12 +17,11 @@ export class CategoryPage {
 
     learnNewTerm() {
         // Navigate to the new term page
-        this.route.navigateByUrl('/category/new-term',{ state: { category: this.categorySelected.title } });
-
+        this.route.navigateByUrl('/category/new-term', { state: { category: this.categorySelected.title } });
     }
 
     alreadyLearned() {
         // Navigate to the already learned terms page
-        this.route.navigateByUrl('/category/past-term',{ state: { category: this.categorySelected.title } });
+        this.route.navigateByUrl('/category/past-term', { state: { category: this.categorySelected.title } });
     }
 }
