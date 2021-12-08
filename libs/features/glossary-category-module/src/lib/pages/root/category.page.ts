@@ -12,16 +12,17 @@ export class CategoryPage {
     constructor(private categoryService: CategoryService, private route: Router) {
         const navigation = this.route.getCurrentNavigation();
         const selectedTitle = navigation.extras.state.category;
-       this.categorySelected =  this.categoryService.getSingleCategory(selectedTitle);
+        this.categorySelected = this.categoryService.getSingleCategory(selectedTitle);
     }
 
     learnNewTerm() {
         // Navigate to the new term page
-        this.route.navigateByUrl('/category/new-term');
+        this.route.navigateByUrl('/category/new-term',{ state: { category: this.categorySelected.title } });
+
     }
 
     alreadyLearned() {
         // Navigate to the already learned terms page
-        this.route.navigateByUrl('/category/past-term');
+        this.route.navigateByUrl('/category/past-term',{ state: { category: this.categorySelected.title } });
     }
 }
