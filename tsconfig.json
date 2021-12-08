@@ -21,7 +21,10 @@
             "@mobile-academy/features/glossary-category-module": ["libs/features/glossary-category-module/src/lib/glossary-category.module"],
             "@mobile-academy/features/glossary-home-module": ["libs/features/glossary-home-module/src/lib/glossary-home.module"],
             "@mobile-academy/ui/components": ["libs/ui/components/src/index.ts"],
-            "@mobile-academy/util/enums": ["libs/util/enums/src/index.ts"]
+            "@mobile-academy/ui/modals": ["libs/ui/modals/src/index.ts"],
+            "@mobile-academy/util/directives": ["libs/util/directives/src/index.ts"],
+            "@mobile-academy/util/enums": ["libs/util/enums/src/index.ts"],
+            "@mobile-academy/util/pipes": ["libs/util/pipes/src/index.ts"]
         }
     },
     "exclude": ["node_modules", "tmp"]

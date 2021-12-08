@@ -12,7 +12,7 @@
                 "index": "apps/startup-glossary/src/index.html",
                 "main": "apps/startup-glossary/src/main.ts",
                 "polyfills": "apps/startup-glossary/src/polyfills.ts",
-                "tsConfig": "apps/startup-glossary/tsconfig.app.json",
+                "tsConfig": "apps/startup-glossary/tsconfig.json",
                 "inlineStyleLanguage": "scss",
                 "assets": ["apps/startup-glossary/src/assets"],
                 "styles": ["apps/startup-glossary/src/global.scss"],
