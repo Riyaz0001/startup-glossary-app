@@ -8,7 +8,7 @@ const routes: Routes = [
     },
     {
         path: 'category',
-        loadChildren: () => import('./category/category.module').then(m => m.CategoryPageModule),
+        loadChildren: () => import('@mobile-academy/features/glossary-category-module').then(m => m.GlossaryCategoryModule),
     },
     {
         path: '',

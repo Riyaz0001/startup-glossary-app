@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CategoryPage } from './category.page';
-import { NewTermPage } from './new-term/new-term.page';
-import { PastTermPage } from './past-term/past-term.page';
+import { CategoryPage } from './pages/root/category.page';
+import { NewTermPage } from './pages/new-term/new-term.page';
+import { PastTermPage } from './pages/past-term/past-term.page';
 
 const routes: Routes = [
     {
@@ -23,4 +23,4 @@ const routes: Routes = [
     imports: [RouterModule.forChild(routes)],
     exports: [RouterModule],
 })
-export class CategoryPageRoutingModule {}
+export class GlossaryCategoryRoutingModule {}
