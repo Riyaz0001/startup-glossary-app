@@ -12,6 +12,7 @@ export class CategoryPage {
     constructor(private categoryService: CategoryService, private route: Router) {
         // Set the selected category
         this.categorySelected = this.categoryService.selectedCategory;
+        console.log(this.categorySelected);
     }
 
     learnNewTerm() {

@@ -44,6 +44,7 @@ export class HomePage {
 
     viewItem(item) {
         // * Select the category
+        console.log(item);
         this.categoryService.selectedCategory = item;
         // * Navigate to the category page
         this.route.navigate(['/category']);
