@@ -1,6 +1,7 @@
 {
     "version": 2,
     "projects": {
+        "data-access-services": "libs/data-access/services",
         "startup-glossary": "apps/startup-glossary",
         "startup-glossary-e2e": "apps/startup-glossary-e2e"
     }

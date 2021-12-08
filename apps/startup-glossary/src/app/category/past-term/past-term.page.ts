@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Category } from '../../models/category.model';
-import { CategoryService } from '../../services/category.service';
+import { Category } from '@mobile-academy/data-access/models';
+import { CategoryService } from '@mobile-academy/data-access/services';
 
 @Component({
     selector: 'app-past-term',

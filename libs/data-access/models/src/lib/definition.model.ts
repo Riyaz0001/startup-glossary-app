@@ -1,6 +1,6 @@
 export class Definition {
     title: string;
-    pronounciation: string;
+    pronunciation: string;
     description: string;
     example: string;
 }

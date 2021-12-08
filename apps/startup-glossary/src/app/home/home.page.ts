@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { CategoryService } from '../services/category.service';
-import { Category, CategoryType } from '../models/category.model';
-
+import { CategoryService } from '@mobile-academy/data-access/services';
+import { Category } from '@mobile-academy/data-access/models';
+import { CategoryType } from '@mobile-academy/util/enums';
 @Component({
     selector: 'app-home',
     templateUrl: 'home.page.html',
@@ -38,14 +38,14 @@ export class HomePage {
     ];
 
     constructor(private route: Router, private categoryService: CategoryService) {
-        // Reset the selected category
+        // * Reset the selected category
         this.categoryService.selectedCategory = null;
     }
 
     viewItem(item) {
-        // Select the category
+        // * Select the category
         this.categoryService.selectedCategory = item;
-        // Navigate to the category page
+        // * Navigate to the category page
         this.route.navigate(['/category']);
     }
 }

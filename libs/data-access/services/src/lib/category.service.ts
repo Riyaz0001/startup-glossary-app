@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Category } from '../models/category.model';
+import { Category } from '@mobile-academy/data-access/models';
 
 @Injectable({ providedIn: 'root' })
 export class CategoryService {
